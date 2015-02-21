@@ -8,13 +8,13 @@ Author: Jim Maguire
 Author URI: http://customrayguns.com
 */
 
+//The bootloader launches the varies features of the plugin:
 $icb_bank = new icb_bank_bootloader;
 
 class icb_bank_bootloader {
 
 	function __construct(){
 		add_action( 'widgets_init', function(){register_widget( 'icb_bank_sidebar_bootloader' );});
-		//$icb_bank_sidebar = new icb_bank_sidebar_bootloader;
 	}
 }
 
