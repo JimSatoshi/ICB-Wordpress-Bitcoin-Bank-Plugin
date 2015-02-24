@@ -7,7 +7,7 @@ Version: 0.1
 Author: Jim Maguire
 Author URI: http://customrayguns.com
 */
-[google](www.google.com)
+//[google](www.google.com)
 //The bootloader launches the varies features of the plugin:
 $icb_bank = new icb_bank_bootloader;
 
